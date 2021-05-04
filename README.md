@@ -16,4 +16,4 @@ There is a manual PDF buried inside their portal which I've uploaded [here](./ma
 
 ## Temperature sensor
 
-The sensor appears to use the 1-wire protocol on GPIO PIN 21. If you edit your `/boot/config.txt` and add a line with `dtoverlay=w1-gpio,gpiopin=21' this will make the ambient temperature available at a path such as `/sys/bus/w1/devices/w1_bus_master1/28-00000bf5368c/temperature`.
+The sensor appears to use the 1-wire protocol on GPIO PIN 21. If you edit your `/boot/config.txt` and add a line with `dtoverlay=w1-gpio,gpiopin=21` this will make the ambient temperature available at a path such as `/sys/bus/w1/devices/w1_bus_master1/28-00000bf5368c/temperature`.

@@ -8,7 +8,7 @@ As I figure out how to use this board from a normal Linux installation (Arch Lin
 
 ![The board](./images/board.jpg)
 
-![The pinout](./pinout.webp)
+![The pinout](./images/pinout.webp)
 
 ## Manual PDF
 
